@@ -1,0 +1,9 @@
+function counter(n){
+  return n++
+or return n+=1
+or return ++n
+}
+
+counter(10) //10, 11, 12 if n++ ==> first evaluates and then increments
+counter(10) // 11, 12, 13 if n+=1 ==> first assigns and then increments in place
+counter(10) // 11, 12, 13 if ++n  ==> first increments and then evaluates
