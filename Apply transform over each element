@@ -7,6 +7,7 @@
 //     let newArray = []
 //     for (let every in arr){
 //          newArray.push(fn(arr[every], Number(every)))
+// type onversion to number from string  => use parseInt() or Number() ==> to check type = typeof()
 //     }
 //     return newArray
 // };
