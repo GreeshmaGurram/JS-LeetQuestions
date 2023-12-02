@@ -1,4 +1,4 @@
-/**
+/** used to repeat a block of code after every t secs
  * @param {Function} fn
  * @param {Array} args
  * @param {number} t
