@@ -1,0 +1,16 @@
+/**
+ * @return {null|boolean|number|string|Array|Object}
+ */
+Array.prototype.last = function() {
+    let lastVal = this[this.length-1];
+    if(lastVal === undefined){
+        return -1;
+    }else{
+        return lastVal
+        }
+};
+
+/**
+ * const arr = [1, 2, 3];
+ * arr.last(); // 3
+ */
